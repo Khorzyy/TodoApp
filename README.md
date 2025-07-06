@@ -19,19 +19,38 @@ A simple Todo List application built with the MERN Stack (MongoDB, Express, Reac
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. 📥 Clone the Repository
 ```bash
-git clone https://github.com/your-username/TodoApp.git
-cd todolist-app
+git clone https://github.com/Khorzyy/TodoApp.git
+cd TodoApp
+```
 
 ### 2. Start back-end server
 ```bash
 cd ../client
 npm install
 npm start
+```
 
 ### 3. Start front-end server
 ```bash
 cd ../client
 npm install
 npm start
+```
+
+## Dependencies
+<h4>Front-End: </h4>
+<ul>
+  <li>axios</li>
+  <li>react</li>
+  <li>@mui/material</li>
+  <li>@emotion/react</li>
+</ul>
+<h4>Backend:</h4>
+<ul>
+  <li>express</li>
+  <li>mongoose</li>
+  <li>cors</li>
+  <li>nodemon (for development)</li>
+</ul>
