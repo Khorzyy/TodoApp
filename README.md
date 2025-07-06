@@ -52,5 +52,5 @@ npm start
   <li>express</li>
   <li>mongoose</li>
   <li>cors</li>
-  <li>nodemon (for development)</li>
+  <li>nodemon</li>
 </ul>
