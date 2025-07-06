@@ -1,0 +1,70 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #989797;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task_container {
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.task_container:hover {
+  background-color: #eaeaea;
+}
+
+.task {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Tombol tambah task di form input */
+form .MuiButton-root {
+  margin-left: 2%;
+  height: 40px;
+}
+
+/* Tombol delete */
+.task_container .MuiButton-root {
+  margin-left: 10px;
+}
